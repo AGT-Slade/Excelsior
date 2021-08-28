@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
     <title>Excelsior</title>
-</head>
+  </head>
 
-<div class="container-1">
-    <div class="menu-icon">
-        <i class="material-icons">menu</i>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
     </div>
 
+    <div id="main">
+      <!--
+        ========================
+        Header
+        ========================
+     -->
+      <header id="header" class="header">
+        <!-- Navigation -->
+        <div class="container-nav">
+          <div class="menu-icon">
+            <!-- Use any element to open the sidenav -->
+            <span onclick="openNav()"><i class="material-icons">menu</i></span>
+          </div>
 
-    <div class="brand">
-        <img class="logo" src="images/logo-escanor.png" alt="">
-        <span class="name">Excelsior</span>
+          <div class="brand">
+            <img class="logo" src="images/logo-escanor.png" alt="" />
+            <span class="name">Excelsior</span>
+          </div>
+
+          <div class="nav-links">
+            <ul>
+              <li class="footer_links">FEATURED</li>
+              <li class="footer_links">BLOG</li>
+              <li class="footer_links">SUBSCRIBE</li>
+              <li>LOGIN</li>
+              <li>REGISTER</li>
+            </ul>
+          </div>
+
+          <div class="search-icon">
+            <i class="material-icons">search</i>
+          </div>
+
+          <div class="cart">
+            <i class="material-icons">shopping_cart</i>
+          </div>
+        </div>
+      </header>
     </div>
 
-    <div class="nav-links">
-        <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ul>
-    </div>
-
-    <div class="search-icon">
-        <i class="material-icons">search</i>
-    </div>
-
-    <div class="cart">
-        <i class="material-icons">shopping_cart</i>
-    </div>
-
-
-</div>
-
-<body>
-
-
-</body>
-
+    <script src="./js/index.js"></script>
+  </body>
 </html>
