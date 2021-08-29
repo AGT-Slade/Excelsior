@@ -11,8 +11,7 @@ function closeNav() {
 } 
 
 
-/* Set the Slideshow*/
-function closeNav() {
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
