@@ -395,7 +395,7 @@ button {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body {
-    background-color: rgb(61,0,91);
+    background-color: rgb(21, 3, 31);
   }
 
   .container-nav {
