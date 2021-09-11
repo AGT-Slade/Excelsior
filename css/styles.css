@@ -129,7 +129,7 @@ body {
 
 .nav-links ul li {
   padding: 0 5px;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /* Slideshow container Begin*/
@@ -243,10 +243,13 @@ h3 {
   font-size: 30px;
   margin: 0;
   padding-top: 10px;
+  color: ivory;
 }
+
 a {
   text-decoration: none;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -255,6 +258,7 @@ a {
   align-items: center;
   margin: 50px 0;
 }
+
 .content {
   width: 24%;
   margin: 15px;
@@ -265,15 +269,17 @@ a {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   padding-top: 10px;
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(0, 0, 0, 0.9);
   box-shadow: 0 0 10px rgba(255, 255, 240, 9);
   transition: 0.4s;
 }
+
 .content:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
   transform: translate(0px, -8px);
   transition: 0.6s;
 }
+
 .content img {
   width: 200px;
   height: 200px;
@@ -281,15 +287,17 @@ a {
   margin: 0 auto;
   display: block;
 }
+
 .content p {
   text-align: center;
   color: white;
   padding: 0 8px;
 }
+
 .content h6 {
   font-size: 26px;
   text-align: center;
-  color: black;
+  color: ivory;
   margin: 0;
 }
 .content ul {
@@ -348,7 +356,7 @@ button {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
-    background-color: rgb(21, 3, 31);
+    background-color: rgb(35, 3, 51);
   }
 
   .nav-links {
